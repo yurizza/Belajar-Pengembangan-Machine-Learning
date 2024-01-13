@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Tensorflow.js: Classification BBC News Demo</title>
+   
+    <link href="styles/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>      
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>  
+    <link href='https://fonts.googleapis.com/css?family=Pontano Sans' rel='stylesheet'>
+
+    <!-- Memanggil versi terbaru TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+    <!--  -->
+    
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+
+    <div class = "header">
+        <img src="styles/logo.jpg"></img>
+      </div>
+     
+      <div class = "main">
+      <div class="container">
+        <img src="styles/tensorflow_logo.png"></img>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+        <link href='https://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet'>
+       
+        <h1>Tensorflow.js</h1>
+        <h2>Classification BBC News Demo</h2>
+       
+        <h3>
+        <p>
+          This demo illustrates the capabilities of a pre-trained model to categorize BBC News articles into <strong>SPORTS, BUSINESS,
+            POLITICS, TECHNOLOGY, or ENTERTAINMENT</strong>. The model excels in predicting the specific category of a news article based on
+            its content. The training process is executed server-side using Python and then seamlessly converted into a TensorFlow.js model
+            for usage in the browser.
+        </p>
+        <p>
+          The model is trained using truncated BBC News content, restricted to a maximum of 100 words, and utilizing only the top 50,000 most frequent words in the dataset.
+        </p>
+        </h3>
+       
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="demo">
+          <br><br><br>
+            <h1>Thank you for your visit!</h1>
+            <!-- <h2>We are committed to providing our customers with a fantastic experience, and your feedback helps us make that possible.</h2> -->
+            <br><br><br><br><br>
+            <br>
+            <div id="loaderlabel"><h2>Loading Model...</h2></div>
+            <div id="loader"> </div>  
+            <div style="display:none;" id="mainAPP">
+                <label for="input">Enter the news you want to categorize:</label><br>
+                <textarea placeholder="Copy and paste the news here" id="input" rows="6" cols="70"></textarea>
+                <br><br>
+                <input type="file" id="fileInput" accept=".txt", onchange="loadFile()">
+                <button class="button" style="vertical-align:middle"><span>Classification</span></button>
+                <p></p>
+            </div>    
+        </div>  
+    </div>
+    
+
+      <!-- Memanggil script.js -->
+      <script src="script.js"></script>
+      <!--  -->
+  </body>
+</html>
