@@ -6,6 +6,8 @@ This repository houses exciting Colab projects covering a spectrum of machine le
 
 In this NLP venture, the objective is to masterfully categorize BBC News articles into sports, business, politics, technology, or entertainment. Unleash the power of cutting-edge NLP techniques to unravel insights from textual data.
 
+**Dataset Source:** [BBC News Dataset](http://mlg.ucd.ie/datasets/bbc.html)
+
 ## 2. Time Series Prediction Project: Daily Gold Price Prediction 📈
 
 Embark on a journey of forecasting with the time series prediction project, where the focus is on predicting daily gold prices. Leverage sophisticated time series analysis and machine learning algorithms to build models that unveil the mysteries of future trends in gold prices.
