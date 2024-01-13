@@ -8,9 +8,13 @@ In this NLP venture, the objective is to masterfully categorize BBC News article
 
 **Dataset Source:** [BBC News Dataset](http://mlg.ucd.ie/datasets/bbc.html)
 
+![Project Image](images/tfjs_nlp_bbc_news.png)
+
+
 ## 2. Time Series Prediction Project: Daily Gold Price Prediction 📈
 
 Embark on a journey of forecasting with the time series prediction project, where the focus is on predicting daily gold prices. Leverage sophisticated time series analysis and machine learning algorithms to build models that unveil the mysteries of future trends in gold prices.
+
 
 ## 3. Image Classification Project: Classification of 6 Animals 🐾
 
