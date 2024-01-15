@@ -18,7 +18,7 @@ Embark on a journey of forecasting with the time series prediction project, wher
 
 ## 3. Image Classification Project: Classification of 6 Animals 🐾
 
-Immerse yourself in the world of computer vision with the image classification project. Train models to distinguish images among six categories, each representing a unique animal. Explore techniques to accurately identify and classify a diverse array of animal images.
+Explore the world of computer vision through this image classification project, training models to distinguish images among six animal categories—butterfly, cat, chicken, cow, elephant, and squirrel—utilizing the [Animal10 Dataset](https://www.kaggle.com/datasets/viratkothari/animal10.)
 
 Feel free to navigate through each project folder for comprehensive documentation, code, and datasets related to these captivating machine learning endeavors.
 
